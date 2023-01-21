@@ -2,7 +2,7 @@
   "name": "saraportfilio",
   "private": true,
   "version": "1.0.0",
-  "description": " Tailwind CSS & Sanity CMS",
+  "description": "Tailwind CSS & Sanity CMS",
   "main": "package.json",
   "author": "Odin Taif",
   "license": "UNLICENSED",
@@ -32,6 +32,6 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/surjithctly/pajamas.git"
+    "url": "https://github.com/Odin-Taif/saraSanity"
   }
 }
