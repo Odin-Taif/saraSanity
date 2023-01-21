@@ -13,10 +13,7 @@ import {
 import Image from "next/image";
 import qrlogo from "../public/myQR.png";
 export default function Contact({ siteconfig }) {
-  console.log(
-    "check token",
-    process.env.NEXT_PUBLIC_SANITY_PROJECT_ID
-  );
+  console.log("check token", process.env.NEXT_PUBLIC_SANITY_DATASET);
   const {
     register,
     handleSubmit,
