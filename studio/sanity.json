@@ -3,10 +3,6 @@
   "project": {
     "name": "saraPortfilio"
   },
-  "api": {
-    "projectId": "9zlcygf3",
-    "dataset": "production"
-  },
   "plugins": [
     "@sanity/base",
     "@sanity/default-layout",
