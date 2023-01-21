@@ -1,5 +1,9 @@
 {
   "root": true,
+  "api": {
+    "projectId": "9zlcygf3",
+    "dataset": "production"
+  },
   "project": {
     "name": "saraPortfilio"
   },
@@ -12,7 +16,9 @@
   ],
   "env": {
     "development": {
-      "plugins": ["@sanity/vision"]
+      "plugins": [
+        "@sanity/vision"
+      ]
     }
   },
   "parts": [
