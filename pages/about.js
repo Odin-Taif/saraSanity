@@ -31,16 +31,25 @@ export default function About({ authors, siteconfig }) {
           ))}
           <div className="mx-auto prose text-center dark:prose-invert mt-14">
             <p>
-              We provide real-time connectivity to enable software
-              providers and financial institutions to build integrated
-              products for their small business customers.
-            </p>
-            <p>
-              Our API infrastructure is leveraged by clients ranging
-              from lenders to corporate card providers and business
-              forecasting tools, with use cases including automatic
-              reconciliation, business dashboarding, and loan
-              decisioning.
+              Sara Khayat is a feminist graphic designer, illustrator,
+              and visual artist from Syria. She was born in Damascus
+              and studied graphic design at the International
+              University for Science and Technology (IUST Syria),
+              Khayat’s work is focused on women’s, LGBTQI+, and
+              refugee rights, using illustration and graphic design to
+              support a wide range of social justice causes, including
+              challenging gender stereotypes and gender-based
+              violence. Sara has worked for and with a variety of
+              organisations across Turkey, Lebanon, and Europe. Since
+              the beginning of the Syrian Civil War in 2011, Khayat
+              has worked on documenting human rights violations by all
+              parties involved in the conflict and the oral histories
+              of women detained by the Syrian regime. Due to the focus
+              and the nature of her work, Sara Khayat was forced to
+              flee Syria for Turkey in 2015. At the beginning of 2023,
+              Sara arrived in Sweden and became the ICORN resident in
+              Gävle City of Refuge. She is the third ICORN resident
+              Gävle has hosted.
             </p>
             <p>
               <Link href="/contact">Get in touch</Link>
