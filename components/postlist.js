@@ -77,7 +77,7 @@ export default function PostList({ post, aspect }) {
             </div>
             <span className="text-sm">{post.author?.name}</span>
           </div>
-          <span className="text-xs text-gray-300 dark:text-gray-600">
+          <span className="text-xs text-gray-300 dark:text-gray-500">
             &bull;
           </span>
           <time
