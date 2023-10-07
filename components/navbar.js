@@ -42,7 +42,7 @@ export default function Navbar() {
                   ))}
                 </div>
                 <div className="flex justify-between w-20 md:w-10 ">
-                  <Link href="/">
+                  <Link href="/businesscard">
                     <a className="w-28 dark:hidden ">
                       <Image
                         src={Logo}
@@ -85,19 +85,6 @@ export default function Navbar() {
                     </svg>
                   </Disclosure.Button>
                 </div>
-
-                {/* <div className="flex-col items-center justify-start order-2 hidden w-full md:flex md:flex-row md:w-auto md:flex-1 md:order-none">
-                  {rightmenu.map((item, index) => (
-                    <Link href={item.href} key={index}>
-                      <a
-                        className="px-5 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-blue-500"
-                        target={item.external ? "_blank" : ""}
-                        rel={item.external ? "noopener" : ""}>
-                        {item.label}
-                      </a>
-                    </Link>
-                  ))}
-                </div> */}
               </div>
               <Disclosure.Panel>
                 <div className="flex flex-col items-center justify-start order-2 w-full md:hidden ">
